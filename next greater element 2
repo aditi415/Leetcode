@@ -11,7 +11,7 @@ public:
            if (!stk.empty())
                 ans[idx] = stk.top();
             stk.push(nums[idx]);                     //ans[idx]=stk.empty()?-1:stk.top();
-                                                                //stk.push(nums[idx]);  
+                                                              //stk.push(nums[idx]);  
         }
         return ans;
     }
