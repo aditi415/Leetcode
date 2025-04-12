@@ -1,7 +1,6 @@
 class RecentCounter {
 public:
-    RecentCounter() {
-      
+    RecentCounter{
     }
     queue<int> Q;
     int ping(int t) {
