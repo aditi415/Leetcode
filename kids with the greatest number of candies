@@ -3,7 +3,7 @@ public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
         int sz = candies.size(); // Get the size of the candies array
         int m = candies[0]; // Initialize the maximum with the first element
-        
+    
         // Find the maximum number of candies any child has
         for (int i = 1; i < sz; i++) {
             m = max(m, candies[i]);
