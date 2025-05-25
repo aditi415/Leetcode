@@ -6,7 +6,7 @@ public:
         // Count characters in string s
         for (auto n : s) 
             um[n]++;
-        
+    
         // Subtract counts using string t
         for (auto n : t) {
             if (um.find(n) != um.end() && um[n] > 0)
