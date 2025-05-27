@@ -1,0 +1,16 @@
+class Solution {
+public:
+    vector<int> numberGame(vector<int>& nums) {
+        vector<int> arr;
+        priority_queue<int,vector<int>, greater<>> minHeap(nums.begin(),nums.end());
+        while(minHeap.size()>=2){
+            auto Alice=minHeap.top();
+            minHeap.pop();
+            auto Bob=minHeap.top();
+            minHeap.pop();
+            arr.push_back(Bob);
+            arr.push_back(Alice);            
+        }
+        return arr;
+    }
+};
