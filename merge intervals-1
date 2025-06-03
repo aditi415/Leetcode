@@ -6,8 +6,6 @@ public:
         return a[0] < b[0]; // Use '<' for sorting in ascending order
     }
 };
-
-
         int sz=intervals.size();
         sort(intervals.begin(),intervals.end(),CompareFirst());
         stack<vector<int>> stk;
