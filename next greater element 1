@@ -12,8 +12,6 @@ public:
             }
             st.push(num);
         }
-
-
         // Step 2: Iterate over nums1 and retrieve results from the map
         vector<int> ans;
         for (int num : nums1) {
