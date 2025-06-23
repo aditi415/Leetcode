@@ -14,7 +14,7 @@ public:
         while(H && H->next){
             T=T->next;
             H=H->next->next;
-            if(T->next==H->next)
+            if(T==H)
             return true;
         }
        return false;
