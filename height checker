@@ -3,7 +3,6 @@ public:
     int heightChecker(vector<int>& heights) {
         int n=heights.size();
         int ans=0;
-
         vector<int> expected(heights);
         sort(expected.begin(),expected.end());
 
