@@ -8,6 +8,5 @@ public:
         bool left = hasPathSum(root->left,targetSum-root->val); 
         bool right = hasPathSum(root->right,targetSum-root->val);
         return left||right;        
-       
     }
 };
