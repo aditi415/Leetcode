@@ -18,7 +18,6 @@ public:
             }
             ans += max_val;
         }
-
         return ans;
     }
 };
